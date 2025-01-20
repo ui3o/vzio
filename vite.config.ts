@@ -12,6 +12,7 @@ export default defineConfig({
     vueDevTools(),
     basicSsl(),
   ],
+  base:"/vzio/",
   server: {
     port: 443,
   },
